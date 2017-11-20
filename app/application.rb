@@ -46,7 +46,7 @@ class Application
       @@cart << item
       return @@cart
     else
-      return "Item not found"
+      return "We don't have that item"
     end
   end
 
