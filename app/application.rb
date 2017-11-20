@@ -43,7 +43,7 @@ class Application
 
   def add_items(item)
     if @@items.include?(item) == true
-      @@cart << k
+      @@cart << item
       return @@cart
     else
       return "Item not found"
